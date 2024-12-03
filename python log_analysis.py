@@ -68,6 +68,7 @@ def main():
     print("\nMost Frequently Accessed Endpoint:")
     print(f"{most_accessed} (Accessed {most_accessed_count} times)\n")
 
+    print("\nSuspicious Activity Detected:")
     if suspicious_ips:
         print(f"{'IP Address':<20} {'Failed Login Attempts'}")
         for ip, count in suspicious_ips.items():
